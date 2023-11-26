@@ -125,13 +125,13 @@ body {
     background-position: center;
     width: 100%;
     height: 50%;
-    background-size: 20vh; 
+    background-size: 19vh; 
     background-repeat: no-repeat; 
-    margin: 7px 0 7px 0;
+    margin: 2px 0 2px 0;
     transition: background-size 0.3s ease;
 }
 .photo:hover{
-    background-size: 21vh; 
+    background-size: 20vh; 
 }
 
 .name{
@@ -142,12 +142,14 @@ body {
 }
 @media screen and (min-width: 1200px) {
     .name{
-        font-size: 21px;
+        font-size: 20px;
     }
 }
 
 .price{
-    margin-top: 10px;
+    position: absolute;
+    margin-top: 2vh;
+    bottom: 70px;
 }
 
 .salecost{
