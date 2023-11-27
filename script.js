@@ -33,7 +33,6 @@ axios.get(url)
 function addItems(list){
     const swiper_wrapper = document.querySelector('.swiper-wrapper')
     for (let i = 0; i < list.data.items.length; i++){
-        console.log(list.data.items[i].name)
         const swiper_slide = document.createElement('div')
         swiper_slide.className = 'swiper-slide'
         swiper_wrapper.append(swiper_slide)
